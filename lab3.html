@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>JS BASICS</title>
+</head>
+
+<body>
+
+
+    <script>
+        console.log("demo to print in console")
+        window.console.log("hello");
+        console.log(" ");
+
+        console.log("comparison operator application");
+        var name = "kritika"
+        var country = "INDIA"
+        var age = 18
+        var num = 27
+        var num0 = "27"
+        console.log(name, country, age);
+        console.log(num0 == num);
+        console.log(num === num0);
+        console.log(num !== num0);
+        console.log(" ");
+
+        console.log("urinary opretor application");
+        var num1 = 0;
+        var num2 = 1;
+        num1 = ++num2;
+        console.log(num1, num2);
+        num1 = num2++;
+        console.log(num1, num2);
+        console.log(" ");
+
+        console.log("if-else");
+        var grade = 93.8
+        if (grade >= 75 && grade < 100) {
+            console.log("A GRADE");
+        } else if (grade >= 50 && grade < 75) {
+            console.log("B GRADE");
+        } else if (grade >= 40 && grade < 50) {
+            console.log("C GRADE");
+        } else {
+            console.log("FAIL")
+        }
+        console.log(" ");
+
+        console.log("while loop");
+        var num = 1;
+        while (num <= 3) {
+            console.log(num);
+            num++;
+        }
+
+        console.log("for loop");
+        for (var num = 1; num <= 4; num++) {
+            console.log(num);
+        }
+
+        console.log("do-while loop");
+        var num = 1;
+        do {
+            console.log(num);
+            num++;
+        }
+        while (num < 6);
+        console.log(" ");
+
+        console.log("ternary operator");
+        var a = "738";
+        var b = "437";
+        a > b ? console.log("1st statement run--condition satisfy") : console.log("2nd statement run--condition does not satisfy") < script
+        console.log(" ");
+
+        console.log("array");
+        var arr = [23, 7, 20, 44, 83]
+        for (var i = 0; i <= 4; i++) {
+            console.log(arr[i]);
+        }
+
+        console.log("access object from array");
+        var superhero = [{
+            name: "THOR",
+            age: "1500"
+        }, {
+            name: "CAPTAIN",
+            age: 107
+        }];
+        for (var i = 0; i < superhero.length; i++) {
+            console.log(superhero[i].name, ":", superhero[i].age);
+        }
+    </script>
+</body>
+
+</html>

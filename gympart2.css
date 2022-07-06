@@ -1,0 +1,152 @@
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    margin: 0px;
+    padding: 0px;
+    /* background: url('./backg\ fittness.jpg'); */
+}
+
+body {
+    background: url('./backg\ fittness.jpg');
+}
+
+.logo {
+    display: inline-block;
+    border: 2px solid rgb(0, 0, 0);
+    position: absolute;
+    left: 60px;
+    top: 20px;
+}
+
+.logo img {
+    width: 136px;
+    fill-opacity: 100%;
+}
+
+.logo div {
+    line-height: 19px;
+    font-size: 26px;
+    text-align: center;
+    color: rgb(8, 80, 8);
+    margin: 5px;
+}
+
+.front {
+    display: inline-block;
+    width: 50%;
+    margin: 29px auto;
+    border: 2px solid rgb(121, 121, 121);
+    position: relative;
+    top: 20px;
+    left: 300px;
+}
+
+.navbar {
+    display: inline-block;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    background-color: rgb(60, 179, 49);
+    border-radius: 5px 2px 34px 13px;
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 25px;
+}
+
+.navbar li a {
+    color: rgb(243, 238, 245);
+    padding: 50px 25px;
+    text-decoration: none;
+}
+
+.navbar :hover,
+.navbar :active {
+    text-decoration: underline;
+    color: brown;
+}
+
+.frontright {
+    position: absolute;
+    right: 20px;
+    top: 40px;
+    display: inline-block;
+    /* border: 2px solid green; */
+}
+
+.frontright :hover {
+    color: brown;
+}
+
+.btn {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0px 5px;
+    background-color: rgb(60, 179, 49);
+    color: white;
+    padding: 7px 14px;
+    border: 2px solid gray;
+    border-radius: 10px 3px 5px 15px;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.btn :hover {
+    background-color: rgb(31, 30, 30);
+}
+
+.container_surround {
+    margin-top: 27px;
+    margin-bottom: 0px;
+    padding: 0px;
+    border: 30px solid navy;
+    height: 1200px;
+}
+
+.container1 {
+    border: 7px solid rgb(235, 17, 198);
+    margin: 4px;
+    margin-bottom: 30px;
+    padding: 25px;
+    height: 25%;
+    width: 95%;
+    position: relative;
+    top: 15px;
+    bottom: 20px;
+}
+
+.container1 img {
+    height: 300px;
+    width: 25%;
+    float: left;
+}
+
+.block {
+    float: right;
+    width: 70%;
+    background: url("./Blur-Flower-Images.jpg");
+    background-image-opacity: 70%;
+    padding: 15px;
+    border: 1px solid black;
+}
+
+h2 {
+    background-color: yellowgreen;
+    height: 35px;
+    margin: 2px;
+    padding: 4px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.content {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 150px;
+    margin-left: 10px;
+    padding: auto;
+    text-decoration: brown;
+    color: brown;
+}

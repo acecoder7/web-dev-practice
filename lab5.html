@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <head charset="utf-8">
+        <title>PRODUCT FILTER</title>
+
+        <style>
+            * {
+                margin: 0px;
+                padding: 0px;
+            }
+            
+            .data {
+                width: 80%;
+                padding-top: 40px;
+                padding-bottom: 40px;
+                background-color: rgb(243, 234, 180);
+                margin-left: 10%;
+                padding-left: 20px;
+                padding-right: 20px;
+                font-family: serif;
+            }
+            
+            table {
+                width: 100%;
+                margin-top: 30px;
+                border: none;
+            }
+            
+            th,
+            td {
+                padding-left: 10px;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                padding-right: 10px;
+                font-size: 20px;
+            }
+            
+            td {
+                color: rgb(160, 0, 152);
+            }
+            
+            #SearchName {
+                height: 40px;
+                width: 100%;
+                text-indent: 20px;
+                margin-top: 20px;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="data">
+            <h1> ALL PRODUCTS </h1>
+            <div id="search">
+                <input type="text" placeholder="Search By Name" onkeyup=" Searchbyname()" id="SearchName">
+                <table class="table" border="1" cellspacing="0">
+                    <thead>
+                        <tr>
+                            <th>S.NO.</th>
+                            <th>NAME</th>
+                            <th>PRICE</th>
+                            <th>CATEGORY</th>
+                            <th>COLOUR</th>
+                            <th>QUANTITY</th>
+                        </tr>
+                    </thead>
+                    <tbody id="tabdata">
+                        <tr>
+                            <td>1</td>
+                            <td>Shirt</td>
+                            <td>799</td>
+                            <td>Clothing</td>
+                            <td>Red</td>
+                            <td>27</td>
+                        </tr>
+            </div>
+        </div>
+        </input>
